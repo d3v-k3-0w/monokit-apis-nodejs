@@ -1,0 +1,10 @@
+{
+	"name": "monokit-apis-nodejs",
+	"description": "",
+	"private": true,
+	"workspaces": [
+		"packages/*"
+	],
+	"author": "dev-kei-ow",
+	"license": "ISC"
+}

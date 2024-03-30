@@ -1,0 +1,9 @@
+PUT http://localhost:3001/api/note/66077b3f5e37b176981bacd0
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MDc1YjJmMGM5NDQxZGI5M2VlZTFlMCIsImlhdCI6MTcxMTc2NjI4OCwiZXhwIjoxNzEyMzcxMDg4fQ.TsfKy_4aLsSbwstKZXXLf2Nq6tczOY9k6fU01-x50bs
+
+{
+  "title" : "nota 1",
+  "content" : "subscribit y Dale like ostiaa!!",
+  "important": true
+}
