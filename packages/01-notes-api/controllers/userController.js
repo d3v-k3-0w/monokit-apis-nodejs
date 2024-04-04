@@ -45,7 +45,8 @@ export const loginUser = async (req, res) => {
 
 	//++ si el user y el pass no son correctos(no damos mucha info para que puedan encontrar las credenciales)
 	if (!(user && passwordCorrect)) {
-		res.status(401).json({
+		//++ el uso del 'return' es crucial para segurarnos de no crear un token de nuevo y enviar otra res despues de esta
+		return res.status(401).json({
 			error: 'invalid user or password',
 		});
 	}

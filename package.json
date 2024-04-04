@@ -6,5 +6,11 @@
 		"packages/*"
 	],
 	"author": "dev-kei-ow",
-	"license": "ISC"
+	"license": "ISC",
+	"scripts": {
+		"dev:01": "npm run --workspace=01-notes-api dev",
+		"start:01": "npm run --workspace=01-notes-api start",
+		"test:01": "npm run --workspace=01-notes-api test",
+		"test:watch:01": "npm run --workspace=01-notes-api test:watch"
+	}
 }

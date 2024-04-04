@@ -13,7 +13,7 @@ import {
 const noteRouter = express.Router();
 
 noteRouter.post('/note', userExtractorMiddle, createNote);
-noteRouter.get('/notes', getAllNotes);
+noteRouter.get('/note', getAllNotes);
 noteRouter.get('/note/:id', findByIdNote);
 noteRouter.put('/note/:id', userExtractorMiddle, updateNote);
 noteRouter.delete('/note/:id', userExtractorMiddle, deleteNote);
