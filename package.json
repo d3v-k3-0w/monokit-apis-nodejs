@@ -8,9 +8,10 @@
 	"author": "dev-kei-ow",
 	"license": "ISC",
 	"scripts": {
-		"dev:01": "npm run --workspace=01-notes-api dev",
+		"Dev:01": "npm run --workspace=01-notes-api dev",
 		"start:01": "npm run --workspace=01-notes-api start",
 		"test:01": "npm run --workspace=01-notes-api test",
-		"test:watch:01": "npm run --workspace=01-notes-api test:watch"
+		"test:watch:01": "npm run --workspace=01-notes-api test:watch",
+		"Dev:02": "npm run --workspace=02-airbnb-api dev"
 	}
 }
