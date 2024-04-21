@@ -1,0 +1,15 @@
+{
+  "usuarios": [
+    {
+      "id": "7cc0",
+      "username": "jwick",
+      "password": "$2b$10$G3T6H1UygnoX6GLojQaE9eOdnk4jvK3d3BuTj6wuXhAZmcdyn.50S"
+    },
+    {
+      "id": "756d",
+      "username": "tluke",
+      "password": "$2b$10$zkYG24rUF3vz1BkZnLLJZ.zBm2Jua00oLk6BxhSZREKnXADkVblty"
+    }
+  ],
+  "favs": []
+}
