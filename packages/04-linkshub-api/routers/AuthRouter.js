@@ -1,9 +1,9 @@
-import express from 'express';
-import { loginHandler, registerHandler } from '../controllers/AuthController.js';
+import { Router } from 'express';
 import { body } from 'express-validator';
+import { loginHandler, registerHandler } from '../controllers/AuthController.js';
 import { validateResultMiddle } from '../middlewares/ValidateResultMiddle.js';
 
-const router = express.Router();
+const router = Router();
 
 router.post(
 	'/register',
