@@ -5,14 +5,34 @@
 	"workspaces": [
 		"packages/*"
 	],
-	"author": "dev-kei-ow",
+	"author": "d3v-k3-0w",
 	"license": "ISC",
 	"scripts": {
-		"Dev:01": "npm run --workspace=01-notes-api dev",
 		"start:01": "npm run --workspace=01-notes-api start",
 		"test:01": "npm run --workspace=01-notes-api test",
 		"test:watch:01": "npm run --workspace=01-notes-api test:watch",
+		"Dev:01": "npm run --workspace=01-notes-api dev",
 		"Dev:02": "npm run --workspace=02-airbnb-api dev",
-		"Dev:03": "npm run --workspace=03-giffing-api dev"
+		"Dev:03": "npm run --workspace=03-giffing-api dev",
+		"Dev:04": "npm run --workspace=04-links-api dev"
+	},
+	"dependencies": {
+		"axios": "1.7.2",
+		"bcrypt": "5.1.1",
+		"bcryptjs": "2.4.3",
+		"cookie-parser": "1.4.6",
+		"cors": "2.8.5",
+		"cross-env": "7.0.3",
+		"dotenv": "16.4.5",
+		"express": "4.19.2",
+		"express-validator": "7.1.0",
+		"image-downloader": "4.3.0",
+		"jsonwebtoken": "9.0.2",
+		"mongoose": "8.5.0",
+		"mongoose-unique-validator": "5.0.1",
+		"multer": "1.4.5-lts.1"
+	},
+	"devDependencies": {
+		"nodemon": "^3.1.4"
 	}
 }
