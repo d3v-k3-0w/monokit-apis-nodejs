@@ -14,7 +14,7 @@
 		"Dev:01": "npm run --workspace=01-notes-api dev",
 		"Dev:02": "npm run --workspace=02-airbnb-api dev",
 		"Dev:03": "npm run --workspace=03-giffing-api dev",
-		"Dev:04": "npm run --workspace=04-links-api dev"
+		"Dev:04": "npm run --workspace=04-linkshub-api dev"
 	},
 	"dependencies": {
 		"axios": "1.7.2",
